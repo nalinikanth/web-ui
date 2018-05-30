@@ -1,0 +1,16 @@
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
+
+<suite thread-count="2" verbose="1" name="Tests Suite" annotations="JDK" parallel="tests">
+
+    <test name="Test1">
+        <classes>
+            <class name="com.test.WebTestFramework"/>
+        </classes>
+    </test>
+
+    <test name="Test2">
+        <classes>
+            <class name="com.test.WebTestFramework"/>
+        </classes>
+    </test>
+</suite>
