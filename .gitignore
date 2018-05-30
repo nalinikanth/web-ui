@@ -1,0 +1,22 @@
+# Eclipse
+.classpath
+.project
+.settings/
+
+# Intellij
+.idea/
+*.iml
+*.iws
+
+# Maven
+logs/
+target/
+
+# Extent-specific files
+ExtentReports/
+
+# MAC
+.DS_Store
+
+
+src/test/resources/result/*
