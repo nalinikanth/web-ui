@@ -79,6 +79,8 @@ public class WebTestFramework {
         assertEquals(myAccount.getHeaderText(), "MY ACCOUNT");
         assertEquals(homepage.header.getUserdetails(),fullName);
         assertTrue(myAccount.getWelcomeText().contains("Welcome to your account."));
+
+        //Failing this specifically to capture screenshot and display in reports
         assertTrue(!homepage.header.isLogoutDisplayed());
         assertTrue(driver.getCurrentUrl().contains("controller=my-account"));
         logger.info("----------------Ending tests signInWithExistingUser_should_be_successful-----------");
