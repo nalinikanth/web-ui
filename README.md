@@ -39,7 +39,7 @@ If you would like to impress us cover as much point as you can!
 
 **Solution**
 ------------------------
-Your solution can include:
+Your solution includes:
 * logging; - log4j
 * taking screenshot on failed tests; - ExtendReports
 * generation human readable report; - ExtendReports
