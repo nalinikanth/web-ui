@@ -5,8 +5,6 @@ import java.util.Properties;
 
 public class PropertiesReader {
 
-    //private final String propertyFilePath = System.getProperty("user.dir") + "/env/default/browser.properties";
-
     static Properties prop = new Properties();
     public static void load(String propertyFilePath)
     {
@@ -32,25 +30,6 @@ public class PropertiesReader {
     public static String get(String key) {
 
         String PropertyFileValue = null;
-        /*FileInputStream fis = null;
-
-        try {
-            fis = new FileInputStream(propertyFilePath);
-        } catch (Exception e) {
-            System.out.println("Configuration file is not found. terminating Process !!!");
-            System.exit(0);
-        }
-
-        Properties prop = new Properties();
-        try {
-            prop.load(fis);
-        } catch (IOException e) {
-
-            e.printStackTrace();
-
-        }
-*/
-
         Boolean isFileEmpty = prop.isEmpty();
 
 

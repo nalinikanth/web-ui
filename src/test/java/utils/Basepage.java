@@ -17,7 +17,7 @@ import java.util.Date;
 public class Basepage {
     protected WebDriver driver;
 
-    public Basepage() throws Exception {
+    public Basepage() {
         driver = WebdriverFactory.getDriver();
     }
 

@@ -15,7 +15,7 @@ public class CategoryPage extends Basepage {
     }
 
     @FindBy(linkText = "More")
-    public WebElement more;
+    private WebElement more;
 
     public ProductPage openProductByName(String productName) throws Exception {
         Actions action = new Actions(driver);
